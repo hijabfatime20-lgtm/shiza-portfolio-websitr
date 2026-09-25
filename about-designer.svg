@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="cardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="aboutShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient background shapes -->
+  <circle cx="270" cy="240" r="190" fill="#f3e8ff" opacity="0.7" />
+  <circle cx="390" cy="130" r="100" fill="#e0e7ff" opacity="0.8" />
+  
+  <!-- Main Creative Frame (Tablet / Design Canvas) -->
+  <g filter="url(#aboutShadow)">
+    <rect x="70" y="50" width="370" height="390" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" />
+    
+    <!-- Top Tablet Toolbar -->
+    <rect x="70" y="50" width="370" height="42" rx="24" fill="#f8fafc" />
+    <path d="M 70 74 L 70 92 L 440 92 L 440 74 Z" fill="#f8fafc" />
+    <circle cx="98" cy="71" r="5" fill="#cbd5e1" />
+    <circle cx="112" cy="71" r="5" fill="#cbd5e1" />
+    <circle cx="126" cy="71" r="5" fill="#cbd5e1" />
+    <text x="255" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#64748b" text-anchor="middle">DESIGN &amp; ARCHITECTURE</text>
+
+    <!-- Canvas Grid Area -->
+    <rect x="92" y="106" width="326" height="308" rx="14" fill="#fafafa" stroke="#f1f5f9" stroke-width="1" />
+
+    <!-- Wireframe Header -->
+    <rect x="110" y="124" width="70" height="14" rx="4" fill="#7c3aed" />
+    <rect x="290" y="128" width="36" height="6" rx="3" fill="#cbd5e1" />
+    <rect x="334" y="128" width="36" height="6" rx="3" fill="#cbd5e1" />
+    <rect x="378" y="124" width="22" height="14" rx="4" fill="#0f172a" />
+
+    <!-- Wireframe Hero Block -->
+    <rect x="110" y="152" width="290" height="96" rx="10" fill="#f1f5f9" />
+    <rect x="124" y="168" width="130" height="12" rx="3" fill="#0f172a" />
+    <rect x="124" y="186" width="150" height="8" rx="2" fill="#94a3b8" />
+    <rect x="124" y="198" width="110" height="8" rx="2" fill="#cbd5e1" />
+    <rect x="124" y="216" width="65" height="18" rx="6" fill="url(#aboutGrad)" />
+
+    <!-- Visual Avatar / Illustration on Wireframe -->
+    <rect x="292" y="164" width="94" height="72" rx="8" fill="#e0e7ff" />
+    <circle cx="339" cy="190" r="16" fill="#7c3aed" opacity="0.3" />
+    <path d="M 327 218 C 327 205, 351 205, 351 218 Z" fill="#7c3aed" opacity="0.4" />
+
+    <!-- Wireframe Feature Columns -->
+    <rect x="110" y="260" width="88" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <circle cx="128" cy="278" r="8" fill="#ede9fe" />
+    <rect x="120" y="294" width="55" height="6" rx="2" fill="#334155" />
+    <rect x="120" y="306" width="68" height="4" rx="2" fill="#94a3b8" />
+    <rect x="120" y="314" width="45" height="4" rx="2" fill="#cbd5e1" />
+
+    <rect x="211" y="260" width="88" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <circle cx="229" cy="278" r="8" fill="#e0f2fe" />
+    <rect x="221" y="294" width="55" height="6" rx="2" fill="#334155" />
+    <rect x="221" y="306" width="68" height="4" rx="2" fill="#94a3b8" />
+    <rect x="221" y="314" width="45" height="4" rx="2" fill="#cbd5e1" />
+
+    <rect x="312" y="260" width="88" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+    <circle cx="330" cy="278" r="8" fill="#fef3c7" />
+    <rect x="322" y="294" width="55" height="6" rx="2" fill="#334155" />
+    <rect x="322" y="306" width="68" height="4" rx="2" fill="#94a3b8" />
+    <rect x="322" y="314" width="45" height="4" rx="2" fill="#cbd5e1" />
+
+    <!-- Color Palette Swatches -->
+    <g transform="translate(110, 345)">
+      <circle cx="12" cy="14" r="10" fill="#0f172a" />
+      <circle cx="38" cy="14" r="10" fill="#7c3aed" />
+      <circle cx="64" cy="14" r="10" fill="#38bdf8" />
+      <circle cx="90" cy="14" r="10" fill="#10b981" />
+      <text x="115" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748b">Modern Color Harmony</text>
+    </g>
+
+    <!-- Interactive Badge: BS Information Technology -->
+    <rect x="110" y="380" width="290" height="22" rx="6" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1" />
+    <text x="255" y="395" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#6d28d9" text-anchor="middle">🎓 BS Information Technology • Academic &amp; Industry Excellence</text>
+  </g>
+
+  <!-- Overlapping Experience Card (Bottom Right) -->
+  <g filter="url(#aboutShadow)" transform="translate(290, 360)">
+    <rect width="210" height="85" rx="16" fill="url(#cardDark)" stroke="#334155" stroke-width="1.5" />
+    <circle cx="36" cy="42" r="20" fill="url(#aboutGrad)" />
+    <!-- Lightbulb/Code icon -->
+    <path d="M 36 30 C 31 30, 27 34, 27 39 C 27 43, 30 46, 32 48 L 40 48 C 42 46, 45 43, 45 39 C 45 34, 41 30, 36 30 Z" fill="#ffffff" />
+    <rect x="32" y="50" width="8" height="2" rx="1" fill="#ffffff" />
+    <text x="68" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Front-End Developer</text>
+    <text x="68" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#a78bfa">Crafting Clean Interfaces</text>
+    <text x="68" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#94a3b8">Bootstrap 5 • Modern JS</text>
+  </g>
+
+  <!-- Top Floating Badge: Web Designer -->
+  <g filter="url(#aboutShadow)" transform="translate(30, 90)">
+    <rect width="165" height="58" rx="14" fill="#0f172a" stroke="#7c3aed" stroke-width="1.5" />
+    <circle cx="28" cy="29" r="14" fill="#7c3aed" />
+    <!-- Palette icon -->
+    <circle cx="28" cy="24" r="3" fill="#ffffff" />
+    <circle cx="22" cy="31" r="2" fill="#38bdf8" />
+    <circle cx="34" cy="31" r="2" fill="#fbbf24" />
+    <text x="52" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#ffffff">Creative Web</text>
+    <text x="52" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#c084fc">Designer &amp; Stylist</text>
+  </g>
+</svg>

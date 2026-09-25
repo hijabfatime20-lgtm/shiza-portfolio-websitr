@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="snackBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="50%" stop-color="#fef3c7" />
+      <stop offset="100%" stop-color="#fde68a" />
+    </linearGradient>
+    <linearGradient id="snackPouch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="snackPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <filter id="snackShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#ea580c" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Browser Frame -->
+  <rect width="600" height="400" fill="#ffffff" rx="16" />
+  <rect width="600" height="38" fill="#18181b" rx="16" />
+  <path d="M 0 24 L 0 38 L 600 38 L 600 24 Z" fill="#18181b" />
+  <circle cx="22" cy="19" r="4.5" fill="#ef4444" />
+  <circle cx="36" cy="19" r="4.5" fill="#f59e0b" />
+  <circle cx="50" cy="19" r="4.5" fill="#10b981" />
+  <rect x="180" y="10" width="240" height="18" rx="9" fill="#27272a" />
+  <text x="300" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" fill="#a1a1aa" text-anchor="middle">www.crunchwavebites.store</text>
+
+  <!-- Energetic Body Canvas -->
+  <rect y="38" width="600" height="362" fill="url(#snackBg)" />
+
+  <!-- Snack Navbar -->
+  <rect y="38" width="600" height="44" fill="#ffffff" stroke="#fde047" stroke-width="1" />
+  <!-- Logo -->
+  <circle cx="45" cy="60" r="12" fill="#ea580c" />
+  <text x="45" y="65" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">⚡</text>
+  <text x="64" y="64" font-family="'Outfit', sans-serif" font-size="15" font-weight="900" fill="#18181b">CRUNCH<tspan fill="#ea580c">WAVE</tspan></text>
+
+  <!-- Nav links -->
+  <text x="240" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#ea580c">Flavors</text>
+  <text x="305" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#52525b">Variety Packs</text>
+  <text x="385" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#52525b">Why Baked?</text>
+  <text x="460" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#52525b">Stores</text>
+
+  <!-- Shop button -->
+  <rect x="515" y="49" width="65" height="22" rx="11" fill="url(#snackPurple)" />
+  <text x="547" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#ffffff" text-anchor="middle">Snack Now</text>
+
+  <!-- Left Column: Hero Content -->
+  <g transform="translate(35, 105)">
+    <rect width="130" height="20" rx="10" fill="#fee2e2" />
+    <text x="65" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="800" fill="#dc2626" text-anchor="middle">💥 100% OVEN BAKED CRUNCH</text>
+    
+    <text x="0" y="50" font-family="'Outfit', sans-serif" font-size="25" font-weight="900" fill="#18181b">Bold Taste,</text>
+    <text x="0" y="76" font-family="'Outfit', sans-serif" font-size="25" font-weight="900" fill="#ea580c">Unstoppable Crunch.</text>
+
+    <text x="0" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#52525b">Artisanal kettle-cooked multigrain chips made with whole</text>
+    <text x="0" y="114" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#52525b">grains, cold-pressed avocado oil, and explosive spices.</text>
+
+    <!-- Flavor selector pills -->
+    <g transform="translate(0, 126)">
+      <rect width="70" height="20" rx="10" fill="#ea580c" />
+      <text x="35" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#ffffff" text-anchor="middle">🔥 Fiery Chili</text>
+
+      <rect x="75" y="0" width="80" height="20" rx="10" fill="#ffffff" stroke="#fed7aa" stroke-width="1" />
+      <text x="115" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#78350f" text-anchor="middle">🧀 Aged Cheddar</text>
+
+      <rect x="160" y="0" width="75" height="20" rx="10" fill="#ffffff" stroke="#fed7aa" stroke-width="1" />
+      <text x="197" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#78350f" text-anchor="middle">🌿 Truffle Herb</text>
+    </g>
+
+    <!-- Action Buttons -->
+    <rect x="0" y="158" width="115" height="32" rx="16" fill="#18181b" />
+    <text x="57" y="178" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">Add To Box • $3.99</text>
+
+    <rect x="125" y="158" width="105" height="32" rx="16" fill="#ffffff" stroke="#ea580c" stroke-width="1.2" />
+    <text x="177" y="178" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#ea580c" text-anchor="middle">Subscribe &amp; Save</text>
+  </g>
+
+  <!-- Right Visual: Snack Bag Graphic Mockup -->
+  <g transform="translate(300, 95)" filter="url(#snackShadow)">
+    <rect width="265" height="225" rx="18" fill="#ffffff" stroke="#fef08a" stroke-width="1.5" />
+    
+    <!-- Bag Illustration in Center -->
+    <g transform="translate(70, 20)">
+      <!-- Snack Pouch Body -->
+      <path d="M 20 15 L 105 15 L 118 145 L 7 145 Z" fill="url(#snackPouch)" rx="8" />
+      <!-- Top Seal Crimps -->
+      <path d="M 18 15 L 107 15 L 107 20 L 18 20 Z" fill="#991b1b" />
+      
+      <!-- Pouch Graphic Branding -->
+      <ellipse cx="62" cy="70" rx="36" ry="24" fill="#ffffff" opacity="0.95" />
+      <text x="62" y="68" font-family="'Outfit', sans-serif" font-size="11" font-weight="900" fill="#dc2626" text-anchor="middle">CRUNCH</text>
+      <text x="62" y="80" font-family="'Outfit', sans-serif" font-size="8.5" font-weight="800" fill="#7c2d12" text-anchor="middle">WAVE</text>
+      
+      <!-- Flavor Subtext on bag -->
+      <rect x="30" y="98" width="65" height="14" rx="4" fill="#fef08a" />
+      <text x="62" y="108" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="800" fill="#9a3412" text-anchor="middle">CHILI LIME CRUNCH</text>
+
+      <!-- Dynamic splash particles -->
+      <polygon points="120,40 128,45 122,50" fill="#f59e0b" />
+      <polygon points="125,75 136,80 128,88" fill="#ea580c" />
+      <polygon points="118,105 125,115 115,118" fill="#dc2626" />
+      <polygon points="0,55 -8,62 2,68" fill="#f59e0b" />
+      <polygon points="-5,90 -14,98 -2,102" fill="#ea580c" />
+    </g>
+
+    <!-- Nutrition Pill Bar on Bag Card -->
+    <rect x="18" y="176" width="229" height="36" rx="8" fill="#fffbeb" stroke="#fed7aa" stroke-width="1" />
+    <text x="32" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#9a3412">🌱 100% Plant-Based</text>
+    <text x="130" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#9a3412">🌾 4g Fiber</text>
+    <text x="195" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#9a3412">🔥 0 Trans Fat</text>
+  </g>
+
+  <!-- Bottom Benefit Badges -->
+  <g transform="translate(35, 335)">
+    <rect width="165" height="42" rx="8" fill="#ffffff" stroke="#fef08a" stroke-width="1" />
+    <circle cx="22" cy="21" r="12" fill="#ffedd5" />
+    <text x="22" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#ea580c" text-anchor="middle">🥑</text>
+    <text x="42" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#18181b">Pure Avocado Oil</text>
+    <text x="42" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#71717a">Never seed or palm oils</text>
+  </g>
+
+  <g transform="translate(215, 335)">
+    <rect width="165" height="42" rx="8" fill="#ffffff" stroke="#fef08a" stroke-width="1" />
+    <circle cx="22" cy="21" r="12" fill="#dbeafe" />
+    <text x="22" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2563eb" text-anchor="middle">📦</text>
+    <text x="42" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#18181b">Free Shipping On $25+</text>
+    <text x="42" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#71717a">Delivered within 48 hours</text>
+  </g>
+
+  <g transform="translate(395, 335)">
+    <rect width="170" height="42" rx="8" fill="#ffffff" stroke="#fef08a" stroke-width="1" />
+    <circle cx="22" cy="21" r="12" fill="#f3e8ff" />
+    <text x="22" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle">⭐</text>
+    <text x="42" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#18181b">Over 50,000 Bags Sold</text>
+    <text x="42" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" fill="#71717a">Top rated by snackers</text>
+  </g>
+</svg>
